@@ -27,7 +27,7 @@ public class AppMain {
             doRepeat = chooseActionMode();   // Ожидаем ввод с консоли и ждем начала игры
         } while (doRepeat);
 
-        System.out.println(words[secretVal]); //Отладка
+        //System.out.println(words[secretVal]); //Отладка
 
         while (true) {                       // Процесс игры
             if (!easyMode)                   // Заполним результат проверки решеткой, если режим игры выбран не легкий
@@ -82,7 +82,7 @@ public class AppMain {
                 case "1":
                     easyMode = true;
                     return false;
-                case "2"4:
+                case "2":
                     easyMode = false;
                     return false;
                 case "3":
